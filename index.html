@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2 Ring Buffer Management</title>
+    <script src="./dist/index.js" defer></script>
+  </head>
+
+  <body>
+    <h1>2 Ring Buffer Management</h1>
+    <h2>When only one ring buffer, and blocks' size vary</h2>
+    <input id="buffer_size" placeholder="Enter the size of the buffer" />
+    <button onclick="init()" id="submit_buffer_size">Submit</button>
+    <br />
+    <p id="ring_buffer"></p>
+    <br />
+    <input id="new_block_size" placeholder="Enter the size of the next block" />
+    <button onclick="push_new_block()" id="submit_new_block_size">
+      Submit
+    </button>
+  </body>
+</html>

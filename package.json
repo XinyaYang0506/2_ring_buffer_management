@@ -1,0 +1,26 @@
+{
+  "name": "2_ring_buffer_management",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/app.js",
+  "scripts": {
+    "dev": "concurrently \"tsc -w\" \"nodemon dist/server.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XinyaYang0506/2_ring_buffer_management.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XinyaYang0506/2_ring_buffer_management/issues"
+  },
+  "homepage": "https://github.com/XinyaYang0506/2_ring_buffer_management#readme",
+  "devDependencies": {
+    "eslint": "^7.9.0",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "typescript": "^4.0.2"
+  }
+}
